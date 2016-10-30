@@ -1,88 +1,87 @@
 body {
-	background: rgb(114, 223, 250);
+  background: rgb(114, 223, 250);
 }
 h2, h3, h4, p {
-	font-family: Quicksand;
+  font-family: Quicksand;
 }
 h2 {
-	font-weight: bold;
-	color: white;
+  font-weight: bold;
+  color: white;
 }
 h3 {
-	font-weight: bold;
-	color: black;
-	text-align: center;
+  font-weight: bold;
+  color: black;
+  text-align: center;
 }
 h4 {
-	background: -webkit-linear-gradient(rgb(114, 223, 250), white);
+  background: -webkit-linear-gradient(rgb(114, 223, 250), white);
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent;
 }
 p {
-	font-size: 16px;
-	color: white;
+  font-size: 16px;
+  color: white;
 }
 a {
-	color: rgb(114, 223, 250);
+  color: rgb(114, 223, 250);
 }
 #aboutMe {
-    clear: both;
-    position: fixed;
-    width: 100%;
-    height: 30px;
-    background-color: #78AB46;
-    top: 0px;
+  clear: both;
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  background-color: #78AB46;
+  top: 0px;
 	border-color: rgb(115, 223, 250);
 	border-style: solid;
 	border-width: 2px;
 	border-radius: 5px;
 }
 .aboutMe > div {
-    margin: auto;
+  margin: auto;
 }
 .aboutMeContent {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 .aboutMeContent > .row {
-	background: black;
-	border-top: 3px solid black;
-	border-bottom: 3px solid black;
+  background: black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
 }
 .aboutMeContent > .row > .col-md-3,
 .aboutMeContent > .row > .col-md-6 {
-	background: black;
-	height: 175px;
-	padding: 15px;
-	border: solid black;
+  background: black;
+  height: 175px;
+  padding: 15px;
+  border: solid black;
 }
 .aboutMeContent > .row > .col-md-2 > h2 {
-	background: -webkit-linear-gradient(rgb(114, 223, 250), white);
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(rgb(114, 223, 250), white);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
 }
 .btn {
-	background-color: black;
+  background-color: black;
   color: white;
-	font-family: Quicksand;
-	font-weight: bold;
+  font-family: Quicksand;
+  font-weight: bold;
   border: 2px solid white;
   text-align: center;
   display: block;
   margin: 0 auto;
 }
 .btn:hover {
-	color: rgb(114, 223, 250);
+  color: rgb(114, 223, 250);
 }
 .contact {
-	padding-top: 20px;
+  padding-top: 20px;
 }
 .contact > ul > li {
-    display: inline-block;
+  display: inline-block;
 }
 .emailAddr {
   position: absolute;
   right: 0;
-
   visibility: hidden;
   opacity: 0;
 }
@@ -91,17 +90,17 @@ a {
   opacity: 1;
 }
 .fa {
-	color: rgb(114, 223, 250);
+  color: rgb(114, 223, 250);
 }
 .fa:hover {
-	color: white;
+  color: white;
 }
 img {
-	padding: 15px 0px 15px 0px;
+  padding: 15px 0px 15px 0px;
 }
 .navbar {
-	background: white;
-	padding-right: 10px;
+  background: white;
+  padding-right: 10px;
 }
 .navbar-header > .navbar-brand > h4 {
   background: -webkit-linear-gradient(black, black);
@@ -130,28 +129,28 @@ img {
   50% { border-color: black; }
 }
 .navbar-default .navbar-nav > li > a {
-   color: black; 
-   font-family: 'Quicksand';
-   font-weight: bold;
+  color: black; 
+  font-family: 'Quicksand';
+  font-weight: bold;
 }
 .navbar-default .navbar-nav > li > a:hover {
- 	color: rgb(114, 223, 250);
+  color: rgb(114, 223, 250);
 }
 .projects {
-	background: rgb(114, 223, 250);
+  background: rgb(114, 223, 250);
 }
 .projects > .row {
-	background: rgb(114, 223, 250);
+  background: rgb(114, 223, 250);
 }
 .projects > h2 {
-	color: black;
-	margin: 10px auto;
+  color: black;
+  margin: 10px auto;
 }
 .thumbnail {
-	margin-top: 5px;
-	background: black;
+  margin-top: 5px;
+  background: black;
 }
 .thumbnail > h3,
 .thumbnail caption {
-	color: white;
+  color: white;
 }
